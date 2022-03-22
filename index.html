@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+
+  <section class="container rating-page">
+
+    <div class="circle">
+      <div class="star-symbol"></div>
+    </div>
+
+    <div class="text-box">
+      <h1 class="title">How did we do?</h1>
+      <p class="text">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </div>
+
+    <div class="rating-list">
+      <div class="rating circle rating__1">1</div>
+      <div class="rating circle rating__2">2</div>
+      <div class="rating circle rating__3">3</div>
+      <div class="rating circle rating__4">4</div>
+      <div class="rating circle rating__5">5</div>
+    </div>
+
+    <input type="submit" value="Submit" class="submit">
+    <!-- Rating state end -->
+  </section>
+
+  <section class="container thankyou-page hidden">
+
+    <!-- Thank you state start -->
+
+    <div class="image-container"></div>
+
+    <div class="thanks-selected-box">
+      <h2 class="result-text">You selected
+        <span id="result-rating">0</span> out of 5
+      </h2>
+    </div>
+
+    <div class="result-text-box">
+      <h1>Thank you!</h1>
+
+      <p class="text">We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+    <!-- Thank you state end -->
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> •
+    Coded by <a rel="nofollow" target="_blank" href="https://github.com/Bmullerc"><strong>Bernardo
+        Muller</strong></a>
+  </div>
+
+</body>
+<script src="assets/app.js"></script>
+
+</html>
