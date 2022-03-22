@@ -49,5 +49,8 @@ Your users should be able to:
 - Radial gradient background
 - More javascript practice
 - Easy hidden elements toggle
-- That I need a lot more javascript fundamental knowledge
 
+### Continued development
+
+- I need a lot more javascript fundamental knowledge
+- Still have a bug in the code that I could not fix
